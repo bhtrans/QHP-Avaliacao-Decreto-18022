@@ -13,8 +13,10 @@ Neste repositório contém um script e os arquivos com os parâmetros básicos u
  3. O Quadro de Horários vigente para a data de comparação: o Decreto estipula que as primeiras, as últimas e as viagens noturnas sejam as mesmas ofertadas no período de pré-pandemia. Para tal, estipulou-se o ofertado em 21 de janeiro de 2020 como base. Utiliza-se o relatório de Quadro de Horários extraído no BH03.
 
 ### Como executar
+Para execução, é requerida a instalação prévia da última versão do R, disponível em https://www.r-project.org/.
 
-Após organizar os arquivos *Intervalos*, *QHP* e *Quadro de Horários vigente* no diretório escolhido, deve-se copiar o *script* para a raíz do diretório escolhido. Após a execução, será criada a pasta **RESULTADOS** com dois arquivos CSV: 
+Em seguira, faz-se necessária uma organização prévia dos arquivos *Intervalos*, *QHP* e *Quadro de Horários vigente* no diretório escolhido.
+Então, executa-se o o *script* na raíz do diretório escolhido. Após a execução, será criada a pasta **RESULTADOS** com dois arquivos CSV, contendo: 
 1. Analise_Intervalo_Viagens: verifica o intervalo (em minutos) entre as viagens propostas e acusa aquelas em desconformidade com os parâmetros estabelecidos no arquivo INTERVALOS, e;
 2. Analise_Periodo_de_Operacao: verifica se há diferenças entre as primeiras e as últimas viagens.
  
